@@ -11,7 +11,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/simpleHuy/jenkins_184.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
-        IMAGE_NAME = 'nginx/nginx-ingress'
+        IMAGE_NAME = 'ntquan87/jenkins_184'
     }
 
 
